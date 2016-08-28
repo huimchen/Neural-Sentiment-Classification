@@ -59,6 +59,7 @@ For testing, you need to type the following command in the folder src/ of each m
 THEANO_FLAGS="floatX=float32,device=gpu" python test.py *dataset* *class*
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
+
 For example, we use the following command when classfing the IMDB document:
 THEANO_FLAGS="floatX=float32,device=gpu" python test.py IMDB 10
 
