@@ -42,11 +42,9 @@ Train
 For training, you need to type the following command in the folder src/ of each model:
 
 THEANO_FLAGS="floatX=float32,device=gpu" python train.py *dataset* *class*
-
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
 For example, we use the following command when classfing the IMDB document:
-
 THEANO_FLAGS="floatX=float32,device=gpu" python train.py IMDB 10
 
 The training model file will be saved in the folder model/bestmodel/ of each model.
@@ -57,11 +55,9 @@ Test
 For testing, you need to type the following command in the folder src/ of each model:
 
 THEANO_FLAGS="floatX=float32,device=gpu" python test.py *dataset* *class*
-
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
 For example, we use the following command when classfing the IMDB document:
-
 THEANO_FLAGS="floatX=float32,device=gpu" python test.py IMDB 10
 
 The testing result which reports the Accuracy and RMSE will be shown in screen.
