@@ -45,11 +45,9 @@ THEANO_FLAGS="floatX=float32,device=gpu" python train.py *dataset* *class*
 
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
-
 For example, we use the following command when classfing the IMDB document:
 
 THEANO_FLAGS="floatX=float32,device=gpu" python train.py IMDB 10
-
 
 The training model file will be saved in the folder model/bestmodel/ of each model.
 
