@@ -9,6 +9,7 @@ Evaluation Results
 Evaluation results on document-level sentiment classification. Acc.(Accuracy) and RMSE are the evaluation metrics.
 ![image](https://github.com/huimchen/figure/blob/master/evaluation%20results.png)
 
+In the above table, baseline models including Majority, Trigram, TextFeature, UPF, AvgWordvec, SSWE, RNTN + RNN, Paragraph Vector, JMARS and UPNN are reported in [Tang et al., 2015].
 
 Data
 ==========
