@@ -19,7 +19,7 @@ We provide IMDB, Yelp13 and Yelp14 dataset we used for sentiment classification 
 Pre-trained word vectors are learned on each dataset (IMDB, Yelp13, Yelp14) separately.
 
 To run our NSC and NSC+LA model, the dataset should be put in the folder data/XX/ using the following format, containing five files:
-+ train.txt: training file, format (userid\tproductid\tclass\tdocument).
++ train.txt: training file, format (userid	productid	class	document), split by '\t'.
 + dev.txt: dev file, same format as train.txt.
 + test.txt: test file, same format as train.txt.
 + wordlist.txt: corresponding words with same sequence in pre-trained word vectors, one per line.
