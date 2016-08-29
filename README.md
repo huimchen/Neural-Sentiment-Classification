@@ -29,7 +29,7 @@ To run our NSC+UPA model, the dataset should be put more two files in the folder
 + usrlist.txt: user ids in each dataset, per one line.
 + prdlist.txt: product ids in each dataset, per one line.
 
-where 'XX' is the corresponding dataset name. For example, 'XX' could be IMDB','yelp13','yelp14' in this project.
+where 'XX' is the corresponding dataset name. For example, 'XX' could be IMDB', 'yelp13', 'yelp14' in this project.
 
 Codes
 ==========
