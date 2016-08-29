@@ -42,7 +42,7 @@ Train
 
 For training, you need to type the following command in the folder src/ of each model:
 
-	THEANO_FLAGS="floatX=float32,device=gpu" python train.py *dataset* *class*
+	THEANO_FLAGS="floatX=float32,device=gpu" python train.py $dataset $class
 
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
@@ -57,7 +57,7 @@ Test
 
 For testing, you need to type the following command in the folder src/ of each model:
 
-	THEANO_FLAGS="floatX=float32,device=gpu" python test.py *dataset* *class*
+	THEANO_FLAGS="floatX=float32,device=gpu" python test.py $dataset $class
 
 where *dataset* is the corresponding dataset folder, *class* is the number of corresponding domain.
 
